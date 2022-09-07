@@ -1,0 +1,28 @@
+:root {
+    --primary: #202020;
+    --primary-color : #0c6cfb;
+    --secondary-color : #0e3eff;
+}
+
+.TopProgressBar {
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+    height: 2px;
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+@keyframes TopProgressBarAnimation {
+    0% {
+      background-color: rba(var(--primary), 0.5);
+    }
+    50% {
+      background-color: var(--primary-color);
+    }
+    100% {
+      background-color: var(--secondary-color);
+    }
+}
