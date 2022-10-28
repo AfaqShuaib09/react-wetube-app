@@ -1,0 +1,17 @@
+.filter-options {
+    flex : 0 0 auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 20px;
+    background : #f0f0f0;
+    text-transform: capitalize;
+    color : var(--primary);
+    font-size : 16px;
+    cursor: pointer;
+    border : 1px solid var(--primary);
+}
+
+.selected {
+    background : var(--primary);
+    color : #f0f0f0;
+}
